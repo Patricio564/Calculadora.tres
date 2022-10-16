@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#CDC2C2"
     android:orientation="vertical"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/text_respuesta"
@@ -13,6 +14,7 @@
         android:layout_height="82dp"
         android:background="#E8DCDC"
         android:hint="0"
+        android:textColorHint="#757575"
         android:textSize="34sp"
         android:textStyle="bold" />
 
@@ -27,67 +29,65 @@
 
             <EditText
                 android:id="@+id/editText_n1"
-                android:layout_width="267dp"
+                android:layout_width="235dp"
                 android:layout_height="64dp"
+                android:autofillHints=""
                 android:background="#938E8E"
                 android:ems="10"
                 android:hint="N1"
                 android:inputType="number"
                 android:textSize="24sp"
-                android:textStyle="bold" />
+                tools:ignore="TextContrastCheck" />
 
             <EditText
                 android:id="@+id/editText_n2"
                 android:layout_width="196dp"
                 android:layout_height="64dp"
+                android:autofillHints=""
                 android:background="#9A9696"
                 android:ems="10"
-                android:hint="N1 %"
+                android:hint="@string/n1"
                 android:inputType="number"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="365dp"
-            android:layout_height="wrap_content" >
-
-            <EditText
-                android:id="@+id/editText_n3"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:background="#706E6E"
-                android:ems="10"
-                android:hint="N2"
-                android:inputType="number"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/textView_x"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="#A89B9B"
-                android:text="X %"
-                android:textSize="24sp"
-                android:textStyle="bold" />
+                android:textColorHint="#424242"
+                android:textSize="24sp" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="wrap_content">
 
+            <EditText
+                android:id="@+id/editText_n3"
+                android:layout_width="210dp"
+                android:layout_height="60dp"
+                android:autofillHints=""
+                android:background="#706E6E"
+                android:ems="10"
+                android:hint="@string/n2"
+                android:inputType="number"
+                android:textColorHint="#212121"
+                android:textSize="24sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView_x"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="#A89B9B"
+                android:text="@string/x"
+                android:textSize="24sp"
+                android:textStyle="bold" />
         </TableRow>
+
     </TableLayout>
 
     <Button
-        android:id="@+id/button_enviar"
+        android:id="@+id/button_calcular"
         android:layout_width="match_parent"
-        android:layout_height="65dp"
+        android:layout_height="wrap_content"
         android:backgroundTint="#FF9800"
-        android:text="Enviar"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:icon="@android:drawable/checkbox_on_background" />
+        android:text="Calcular"
+        android:textSize="34sp"
+        android:textStyle="bold" />
 
 </LinearLayout>

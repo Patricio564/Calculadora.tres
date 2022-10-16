@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Calculadora_tres</string>
     <string name="button">Button</string>
+    <string name="enviar">Enviar</string>
+    <string name="x">X %</string>
+    <string name="n2">N2</string>
+    <string name="n1">N1 %</string>
 </resources>
