@@ -5,4 +5,6 @@
     <string name="x">X %</string>
     <string name="n2">N2</string>
     <string name="n1">N1 %</string>
+    <string name="_0">0</string>
+    <string name="calcular">Calcular</string>
 </resources>

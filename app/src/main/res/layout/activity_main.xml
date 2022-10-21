@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="82dp"
         android:background="#E8DCDC"
-        android:hint="0"
+        android:hint="@string/_0"
         android:textColorHint="#757575"
         android:textSize="34sp"
         android:textStyle="bold" />
@@ -28,7 +28,7 @@
             android:layout_height="wrap_content">
 
             <EditText
-                android:id="@+id/editText_n1"
+                android:id="@+id/num1"
                 android:layout_width="235dp"
                 android:layout_height="64dp"
                 android:autofillHints=""
@@ -40,7 +40,7 @@
                 tools:ignore="TextContrastCheck" />
 
             <EditText
-                android:id="@+id/editText_n2"
+                android:id="@+id/porcentaje1"
                 android:layout_width="196dp"
                 android:layout_height="64dp"
                 android:autofillHints=""
@@ -57,9 +57,9 @@
             android:layout_height="wrap_content">
 
             <EditText
-                android:id="@+id/editText_n3"
-                android:layout_width="210dp"
-                android:layout_height="60dp"
+                android:id="@+id/num2"
+                android:layout_width="235dp"
+                android:layout_height="64dp"
                 android:autofillHints=""
                 android:background="#706E6E"
                 android:ems="10"
@@ -86,7 +86,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="#FF9800"
-        android:text="Calcular"
+        android:text="@string/calcular"
+        android:textColor="@color/white"
         android:textSize="34sp"
         android:textStyle="bold" />
 
