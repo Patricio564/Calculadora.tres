@@ -20,7 +20,7 @@
 
     <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="446dp"
+        android:layout_height="261dp"
         android:background="#CFC8C8">
 
         <TableRow
@@ -90,5 +90,11 @@
         android:textColor="@color/white"
         android:textSize="34sp"
         android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/siguiente_boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="siguiente" />
 
 </LinearLayout>
