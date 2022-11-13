@@ -33,14 +33,14 @@ public class MainActivity extends AppCompatActivity {
         button_calcular=findViewById(R.id.button_calcular);
         text_respuesta=findViewById(R.id.text_respuesta);
 
-
+/**
         findViewById(R.id.boton_atras).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
             }
         });
-
+++*/
 
 
 
@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-              /** dialogo */
+              /** dialogo
 
             private void pagina2() {
                 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
@@ -72,9 +72,9 @@ public class MainActivity extends AppCompatActivity {
 
                     }
                 });
-                builder.show();
+                builder.show(); */
 
-            }
+
 
         });
 
