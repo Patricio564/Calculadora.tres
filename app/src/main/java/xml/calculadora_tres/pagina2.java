@@ -20,6 +20,8 @@ public class pagina2 extends MainActivity {
 
         atras = findViewById(R.id.boton_atras);
 
+        /* probando commit */
+
         atras.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

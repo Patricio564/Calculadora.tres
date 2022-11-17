@@ -26,11 +26,26 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        /** Siguiente Boton
+         *
+         */
         Siguiente = findViewById(R.id.siguiente_boton);
+
+        /** Insertar num 1 y 2
+         *
+         */
         num1 = findViewById(R.id.num1);
         num2 = findViewById(R.id.num2);
+
+        /** Carlcular
+         *
+         */
         porcentaje1 = findViewById(R.id.porcentaje1);
         button_calcular=findViewById(R.id.button_calcular);
+
+        /** Generar Respuesta
+         *
+         */
         text_respuesta=findViewById(R.id.text_respuesta);
 
 /**
