@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
          */
         Siguiente = findViewById(R.id.siguiente_boton);
 
-        /** Insertar num 1 y 2
+        /** Insertar num Uno y dos
          *
          */
         num1 = findViewById(R.id.num1);
