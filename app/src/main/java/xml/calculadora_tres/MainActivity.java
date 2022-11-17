@@ -26,12 +26,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        /** Siguiente Boton
+        /** Siguient Btn
          *
          */
         Siguiente = findViewById(R.id.siguiente_boton);
 
-        /** Insertar num Uno y dos
+        /** Insertar num 1 y 2
          *
          */
         num1 = findViewById(R.id.num1);
