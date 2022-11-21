@@ -14,20 +14,13 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    /** Boton para Calcular
-     *
-     */
+
     private Button button_calcular;
 
-    /** Mostrar Respueta
-     *
-     */
+
     private TextView text_respuesta;
     private Button Siguiente;
 
-    /** Ingresar dos numeros
-     *
-     */
     private EditText num1;
     private EditText num2;
     private EditText porcentaje1;
